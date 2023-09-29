@@ -15,3 +15,43 @@
     overflow: hiddem;
     padding: 10px 10%;
 }
+
+nav{
+    padding:10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin:10px 15px
+}
+nav ul li a{
+    text-decoration: none;
+    color: #332;
+    font-weight: 400;
+}
+
+.Login-btn{
+    text-decoration: none;
+    color: #332;
+    margin-right: 15px;
+    font-weight: 400;
+}
+
+.btn{
+ display:inline-block;
+ background-color: #df4881;
+ padding: 14px 40px;
+ color: #ffffff;
+ background-image: linear-gradient(45deg, #df4881 #c430d7);
+ background-size: contain;
+ font-size: 14px;
+ border-radius: 30px;
+ border-top-right-radius: 0;
+}
+
+.btn a{
+    text-decoration: none;
+}
