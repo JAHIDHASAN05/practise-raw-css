@@ -2,5 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing:border-box;
+    font-family : sans-serif, 'Times New Roman', Times, serif;
     
+}
+
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(./back-image.png);
+    background-size: cover;
+    background-position: center ;
+    overflow: hiddem;
+    padding: 10px 10%;
 }
